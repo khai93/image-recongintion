@@ -1,0 +1,29 @@
+{
+  "name": "image-recongintion",
+  "version": "1.0.0",
+  "description": "Image recongintion with tensor flow",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khai93/image-recongintion.git"
+  },
+  "keywords": [
+    "ai",
+    "image"
+  ],
+  "author": "Nang Khai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/khai93/image-recongintion/issues"
+  },
+  "homepage": "https://github.com/khai93/image-recongintion#readme",
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^1.0.0",
+    "@tensorflow/tfjs-node": "^1.0.2",
+    "canvas": "^2.4.1",
+    "image-size": "^0.7.2"
+  }
+}
