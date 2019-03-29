@@ -1,2 +1,9 @@
 # image-recongintion
-image recognition using tensorflow and tensorflow's mobilenet model
+
+### Dependencies Used
+
+* node-canvas
+* @tensorflow-models/mobilenet
+* @tensorflow/tfjs-node
+* image-size
+
