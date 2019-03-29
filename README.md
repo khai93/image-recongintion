@@ -36,7 +36,7 @@ imgToCanvas('tests/images/airplane.jpg')
 ```
 
 **returns**
-```json
+```javascript
 [ { className: 'airliner', probability: 0.9484817981719971 },
   { className: 'wing', probability: 0.033559128642082214 },
   { className: 'warplane, military plane',
@@ -45,9 +45,11 @@ imgToCanvas('tests/images/airplane.jpg')
 
 ### Documentation
 
-#### imgToCanvas(string imgSrc): returns a Promise with a Canvas Object
+```javascript
+imgToCanvas(imgSrc) // returns a Promise with a Canvas Object
 
-#### classifyImage(canvas): returns a Promise with an Object predictions
+classifyImage(canvas) // returns a Promise with an Object predictions
+```
 
 
 
