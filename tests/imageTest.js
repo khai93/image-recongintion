@@ -1,6 +1,4 @@
 const { classifyImage, imgToCanvas } = require("../src/index");
-const { loadImage } = require("canvas");
-const fs = require("fs");
 
 imgToCanvas('tests/images/airplane.jpg')
     .then((canvas) => {
