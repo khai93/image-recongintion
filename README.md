@@ -1,2 +1,2 @@
 # image-recongintion
-image recognition 
+image recognition using tensorflow and tensorflow's mobilenet model
